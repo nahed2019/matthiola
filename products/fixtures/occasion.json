@@ -1,0 +1,37 @@
+[
+    {
+      "pk":1,
+      "model":"products.occasion",
+      "fields":{
+         "name":"birthday",
+         "friendly_name":"Birthday"}
+    },
+    
+    {
+      "pk":2,
+      "model":"products.occasion",
+      "fields":{
+         "name":"anniversary",
+         "friendly_name":"Anniversary"}
+    },
+    {
+      "pk":3,
+      "model":"products.occasion",
+      "fields":{
+         "name":"congratulations",
+         "friendly_name":"Congratulations"}
+    },
+    {
+      "pk":4,
+      "model":"products.occasion",
+      "fields":{
+         "name":"love-romance",
+         "friendly_name":"Love & Romance"}
+    },
+    {"pk":5,
+      "model":"products.occasion",
+      "fields":{
+         "name":"wedding",
+         "friendly_name":"Wedding"}
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+      "pk":1,
+      "model":"products.category",
+      "fields":{
+         "name":"flower",
+         "friendly_name":"Flower"}
+    },
+    {
+      "pk":2,
+      "model":"products.category",
+      "fields":{
+         "name":"green-plant",
+         "friendly_name":"Green Plant"}
+    },
+    {
+      "pk":3,
+      "model":"products.category",
+      "fields":{
+         "name":"flowering-plant",
+         "friendly_name":"Flowering Plant"}
+    },
+    {
+      "pk":4,
+      "model":"products.category",
+      "fields":{
+         "name":"basket-gift",
+         "friendly_name":"Basket Gift"}
+    },
+    {
+      "pk":5,
+      "model":"products.category",
+      "fields":{
+         "name":"baby-gift",
+         "friendly_name":"Baby Gift"}
+    },
+    {
+      "pk":6,
+      "model":"products.category",
+      "fields":{
+         "name":"special-gift",
+         "friendly_name":"Spicial Gift"}
+    }
+]

@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lato:ital,wght@0,400;1,100;1,300;1,400&display=swap');
+
+
 html {
     height: 100%;
 }
 
 body {
-    height: calc(100vh - 164px);
-    color: #555;
+    height: 100vh;
     font-family: 'Lato';
 }
 
-/* from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -18,6 +19,11 @@ body {
 }
 
 .logo-font {
+    text-transform: uppercase;
+}
+
+.logo-font-main {
+    font-family: 'Akaya Telivigala';
     text-transform: uppercase;
 }
 
@@ -47,6 +53,8 @@ body {
 .bg-navy {
     background: #010135 !important;
 }
+
+
 
 /* -------------------------------- Media Queries */
 

@@ -1,0 +1,387 @@
+[
+    {
+      "pk":1,
+      "model":"products.product",
+      "fields":{
+         "name":"P.i.s.t.i.L",
+         "description":"She is just as delicate as the flowers you got her",
+         "price":34,
+         "category":6,
+         "occasion":[1,2] ,
+         "rating":3.6,
+         "product_image":"spg123.jpg"}
+    },
+    {
+      "pk":2,
+      "model":"products.product",
+      "fields":{
+         "name":"Jarbiras liami ",
+         "description":"Those juicy colors want nothing but to amuse you",
+         "price":20,
+         "category":6,
+         "occasion":[1,2,3] ,
+         "rating":4.2,
+         "product_image":"spg1230.jpg"}
+    },
+    
+    {
+      "pk":3,
+      "model":"products.product",
+      "fields":{
+         "name":"It’s A Girl ",
+         "description":"Trying to assemble a girly bouquet then go for pink ",
+         "price":25,
+         "category": 5,
+         "occasion":[3] ,
+         "rating":3.8,
+         "product_image":"g1230.jpg"}
+    },
+    {
+      "pk":4,
+      "model":"products.product",
+      "fields":{
+         "name":"The hidden",
+         "description":"Unfolded gifts isn’t what you want Get a chance with the hidden to dig and discover",
+         "price":30,
+         "category":1,
+         "occasion": [1,2,3,4],
+         "rating":4.5,
+         "product_image":"b129.jpg"}
+    },
+    {
+      "pk":5,
+      "model":"products.product",
+      "fields":{
+         "name":"Spring picnic",
+         "description":"Few salty crackers and a tea cup and those amazing baby roses ",
+         "price":15,
+         "category":4,
+         "occasion": [1,3,4] ,
+         "rating":2.5,
+         "product_image":"b280.jpg"}
+    },
+    {
+      "pk":6,
+      "model":"products.product",
+      "fields":{
+         "name":"Chife ultimate",
+         "description":"Cheerful Combination of every color that brings joy with i",
+         "price":14,
+         "category":6,
+         "occasion": 1,
+         "rating":3.2,
+         "product_image":"b1230.jpg"}
+    },
+    {
+      "pk":7,
+      "model":"products.product",
+      "fields":{
+         "name":"Mermaid tears ",
+         "description":"Drop falls of felienobsis streaming with the touches of bluish baby roses",
+         "price":45,
+         "category":1,
+         "occasion":[1,2,3,4] ,
+         "rating":4.8,
+         "product_image":"b1231.jpg"}
+    },
+    {
+      "pk":8,
+      "model":"products.product",
+      "fields":{
+         "name":"Sweetheart ",
+         "description":"consider it the perfect little addition to your window sill.",
+         "price":10,
+         "category":2,
+         "occasion": 3,
+         "rating":2.5,
+         "product_image":"p126.jpg"}
+    },
+    {
+      "pk":9,
+      "model":"products.product",
+      "fields":{
+         "name":"Pilla ",
+         "description":"unusual round leaves that makes a dramatic impression",
+         "price":10,
+         "category":2,
+         "occasion": 3,
+         "rating":2.5,
+         "product_image":"p125.jpg"}
+    },
+    {
+      "pk":10,
+      "model":"products.product",
+      "fields":{
+         "name":"Romantic red",
+         "description":"Along with the spectacular matthiolas the pink and red combined in a piece of Art",
+         "price":20,
+         "category": 1,
+         "occasion": [1,2,3,4] ,
+         "rating":2.3,
+         "product_image":"p1280.jpg"}
+    },
+    {
+      "pk":11,
+      "model":"products.product",
+      "fields":{
+         "name":"Peony  in a Jar",
+         "description":"There isn’t an easier way to show the beauty of peonies",
+         "price":16,
+         "category":6,
+         "occasion":[1,2,3] ,
+         "rating":2.9,
+         "product_image":"g1250.jpg"}
+    },
+    {
+      "pk":12,
+      "model":"products.product",
+      "fields":{
+         "name":"Snow buttons",
+         "description":"In a row racing to fill the air with Joy",
+         "price":15,
+         "category":1,
+         "occasion":[1,2,3,4] ,
+         "rating":4,
+         "product_image":"f1270.jpg"}
+    },
+    {
+      "pk":13,
+      "model":"products.product",
+      "fields":{
+         "name":"Choocko love",
+         "description":"Cappuccino roses with that soft color mixed in jungly look",
+         "price":25,
+         "category": 1,
+         "occasion": [2,3],
+         "rating":3,
+         "product_image":"p290.jpg"}
+    },
+    {
+      "pk":14,
+      "model":"products.product",
+      "fields":{
+         "name":"Bluish ronian ",
+         "description":"The sky , The see and her eyes Every thing looks better in blue",
+         "price":25,
+         "category": 1,
+         "occasion": [2,5],
+         "rating":2.9,
+         "product_image":"p0126.jpg"}
+    },
+    {
+      "pk":15,
+      "model":"products.product",
+      "fields":{
+         "name":"Orange flaming baby roses",
+         "description":"Orange flaming baby roses",
+         "price":13,
+         "category":1,
+         "occasion": [3],
+         "rating":2.3,
+         "product_image":"f1280.jpg"}
+    },
+    {
+      "pk":16,
+      "model":"products.product",
+      "fields":{
+         "name":"Joliets in Pink",
+         "description":"Astonishing gift to brighten someone’s day",
+         "price":15,
+         "category": 1,
+         "occasion":[2,3] ,
+         "rating":2,
+         "product_image":"p1310.jpg"}
+    },
+    {
+      "pk":17,
+      "model":"products.product",
+      "fields":{
+         "name":"Melted heart",
+         "description":"Is exactly the reaction of who’s gonna see it in your hands , just the double colored baby roses dominating  leaving the purple luiziana just enough to stand out",
+         "price":30,
+         "category": 1,
+         "occasion": [5],
+         "rating":3.5,
+         "product_image":"w250.jpg"}
+    },
+    {
+      "pk":18,
+      "model":"products.product",
+      "fields":{
+         "name":"Snow Fall blooms",
+         "description":"As they tell stories about the pureness of snow here’s where all has begun      allowing the delicate touch of green to have the final details master-pieced",
+         "price":30,
+         "category": 1,
+         "occasion": [5,2],
+         "rating":3.3,
+         "product_image":"w1240.jpg"}
+    },
+    {
+      "pk":19,
+      "model":"products.product",
+      "fields":{
+         "name":"Beauty in white ",
+         "description":"A splendid white Kala is all you need to have the perfect bridal bouquet in your special Day  along with the snowy Matthiolas it becomes just everything",
+         "price":30,
+         "category": 1,
+         "occasion": [5],
+         "rating":3.5,
+         "product_image":"w1230.jpg"}
+    },
+    {
+      "pk":20,
+      "model":"products.product",
+      "fields":{
+         "name":"Sun kissed",
+         "description":"Starting your day looking to pretty shiny sunflowers will amaze you",
+         "price": 25,
+         "category": 1,
+         "occasion":[1,3] ,
+         "rating": 3,
+         "product_image":"p0124.jpg"}
+    },
+    {
+      "pk":21,
+      "model":"products.product",
+      "fields":{
+         "name":"Deep in the ocean",
+         "description":"Not even if you want you can deny it is amusing your eyes",
+         "price":35,
+         "category": 1,
+         "occasion": [1,2,3] ,
+         "rating":4,
+         "product_image":"p0123.jpg"}
+    },
+    {
+      "pk":22,
+      "model":"products.product",
+      "fields":{
+         "name":"Love story",
+         "description":"And what is a story without red roses to complete it",
+         "price":40,
+         "category":1,
+         "occasion": [2,4],
+         "rating":4.6,
+         "product_image":"l123.jpg"}
+    },
+    {
+      "pk":23,
+      "model":"products.product",
+      "fields":{
+         "name":"The glory garden",
+         "description":"David Austin proving once more is your 1st choice",
+         "price":40,
+         "category":1,
+         "occasion": [1,2,3],
+         "rating":4.6,
+         "product_image":"p0213.jpg"}
+    },
+    {
+      "pk":24,
+      "model":"products.product",
+      "fields":{
+         "name":"M.O.N.I.C.A",
+         "description":"Yes our roses blush cause you’re the real beauty",
+         "price":40,
+         "category":1,
+         "occasion": [1,2,3],
+         "rating":4.6,
+         "product_image":"f1230.jpg"}
+    },
+    {
+      "pk":25,
+      "model":"products.product",
+      "fields":{
+         "name":"Alikrova ",
+         "description":"The chill you feel isn’t cold it’s the snowy white look on those icebraker roses",
+         "price":40,
+         "category":1,
+         "occasion": [2,3],
+         "rating":4.6,
+         "product_image":"f125.jpg"}
+    },
+    {
+      "pk":26,
+      "model":"products.product",
+      "fields":{
+         "name":"Classic Red ",
+         "description":"Old is Gold or in this case Gold is Red",
+         "price":40,
+         "category":1,
+         "occasion": [2,4],
+         "rating":4.6,
+         "product_image":"l125.jpg"}
+    },
+    {
+      "pk":27,
+      "model":"products.product",
+      "fields":{
+         "name":"Holy garden ",
+         "description":"Strengthening your relationship is one bouquet away",
+         "price":30,
+         "category":1,
+         "occasion": [1,2,3,5],
+         "rating":4,
+         "product_image":"p1330.jpg"}
+    },
+    {
+      "pk":28,
+      "model":"products.product",
+      "fields":{
+         "name":"It’s A Boy ",
+         "description":"Trying to assemble a baby boy bouquet then go for blue ",
+         "price":25,
+         "category": 5,
+         "occasion":[3] ,
+         "rating":3.8,
+         "product_image":"bg1230.jpg"}
+    },
+    {
+      "pk":29,
+      "model":"products.product",
+      "fields":{
+         "name":"Autumn Festival ",
+         "description":"Orangies and brownies celebrating together",
+         "price":30,
+         "category":1,
+         "occasion": [3],
+         "rating":3,
+         "product_image":"g124.jpg"}
+    },
+    {
+      "pk":30,
+      "model":"products.product",
+      "fields":{
+         "name":"Red Aglanomena",
+         "description":"Not only does this plant feature pretty, bright pink stems and leaves, but it's also super easy to care for.",
+          "price":20,
+         "category":2,
+         "occasion": [3],
+         "rating":3,
+         "product_image":"p123.jpg"}
+    },
+    {
+      "pk":31,
+      "model":"products.product",
+      "fields":{
+         "name":"A small arabica",
+         "description":"A small arabica coffee plant might be able to cover your coffee habit, and they are beautiful",
+         "price": 15,
+         "category": 2,
+         "occasion": [3],
+         "rating":3,
+         "product_image":"p127.jpg"}
+    },
+    {
+      "pk":32,
+      "model":"products.product",
+      "fields":{
+         "name":"The hanging pot",
+         "description":"The hanging pot is all you need to have lengthy strands of pearls ",
+         "price": 18,
+         "category": 2,
+         "occasion": [1,3],
+         "rating":3.3,
+         "product_image":"p124.jpg"}
+    }
+]
