@@ -27,8 +27,10 @@
                 {% for product in products %}
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <figure class="rounded p-3 bg-white shadow-sm  h-100">
+                        <a href="{% url 'product_detail' product.id %}">
                         <img src="{{ MEDIA_URL }}{{ product.product_image}}" alt="{{ product.name }}"
                             class="w-100 card-img-top product-img ">
+                        </a>
                         <figcaption class="p-4 card-footer">
                             <h2 class="h5 font-weight-bold mb-2 font-italic">{{ product.name }}</h2>
                             <p class="mb-0 text-small text-muted font-italic">${{ product.price }}.</p>
