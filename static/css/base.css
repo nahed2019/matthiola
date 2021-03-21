@@ -56,6 +56,38 @@ body {
 
 
 
+.product-img {
+   height: 300px;
+}
+
+/* ------------------------------------------------The Banner Msg */
+
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* ------------------------------------------------Hero Images*/
+
+.products-hero-img {
+  background:  url('/static/images/hero-imgs/flowers2.jpg') no-repeat center center;
+  background-size: cover;
+  height: calc(80vh - 164px);;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+
+
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
