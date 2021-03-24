@@ -52,6 +52,20 @@ body {
 
 .bg-navy {
     background: #010135 !important;
+    color: white;
+}
+
+.btn-outline-black {
+    background: white;
+    color: #010135 !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #010135;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: #010135;
+    color: white !important;
 }
 
 .btt-button {
