@@ -21,9 +21,9 @@
             </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4">
-            <div class="product-details-container mb-5 mt-md-5">
-                <p class="mb-0">{{ product.name }}</p>
-                <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+            <div class="product-details-container mb-5 mt-md-5 pt-2">
+                <p class="h4 font-weight-bold logo-font-main text-navy">{{ product.name }}</p>
+                <p class="lead mb-0 text-left font-weight-bold pt-2">${{ product.price }}</p>
                 {% if product.rating %}
                 <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                 {% else %}
@@ -36,14 +36,18 @@
                     </a>
                 </p>
                 {% endif %}
+                <p class="mt-3">{{ product.description }}</p>
                 {% if product.occasion %}
                 <p class="small mt-1 mb-0">
                     <a class="text-muted" href="{% url 'products' %}?occasion={{ product.occasion.name }}">
-                        <i class="fas fa-tag mr-1"></i>{{ product.occasion.friendly_name }}
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Perfect For : {{ product.occasion.friendly_name }}</p>
+                            </li>
+                        </ul>
                     </a>
                 </p>
                 {% endif %}
-                <p class="mt-3">{{ product.description }}</p>
             </div>
         </div>
     </div>

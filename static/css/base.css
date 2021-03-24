@@ -23,7 +23,7 @@ body {
 }
 
 .logo-font-main {
-    font-family: 'Akaya Telivigala';
+    font-family: 'Akaya Telivigala' !important;
     text-transform: uppercase;
 }
 
@@ -54,6 +54,20 @@ body {
     background: #010135 !important;
 }
 
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
+
+
 
 
 .product-img {
@@ -79,7 +93,7 @@ body {
 .products-hero-img {
   background:  url('/static/images/hero-imgs/flowers2.jpg') no-repeat center center;
   background-size: cover;
-  height: calc(80vh - 164px);;
+  height: calc(60vh - 164px);;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
