@@ -20,8 +20,8 @@
                 Flowers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="flowers-link">
-                <a href="" class="dropdown-item">Flowers By Type</a>
-                <a href="" class="dropdown-item">Flowers By color</a>
+                <a href="{% url 'products' %}?sort=flower&direction=asc" class="dropdown-item">Flowers By Type</a>
+                <a href="{% url 'products' %}?sort=color&direction=asc" class="dropdown-item">Flowers By color</a>
                 <a href="{% url 'products' %}?category=flower" class="dropdown-item">All Flowers</a>
             </div>
         </li>

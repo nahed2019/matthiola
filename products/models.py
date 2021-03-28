@@ -41,3 +41,19 @@ class Product(models.Model):
 
     def __str__(self):
         return '{}, {}, {}'.format(self.name, self.category, self.occasion)
+
+
+class Color(models.Model):
+    name = models.CharField(max_length=254)
+    product_id = models.ManyToManyField('Product')
+
+    def __str__(self):
+        return '{}'.format(self.name)
+
+
+class Flower(models.Model):
+    name = models.CharField(max_length=254)
+    product_id = models.ManyToManyField('Product')
+
+    def __str__(self):
+        return '{}'.format(self.name)
