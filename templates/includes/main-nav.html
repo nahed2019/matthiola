@@ -14,16 +14,10 @@
             </div>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-navy mr-5" href="#" id="flowers-link"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item ">
+            <a class="logo-font font-weight-bold nav-link text-navy mr-5" href="{% url 'products' %}?category=flower">
                 Flowers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="flowers-link">
-                <a href="{% url 'products' %}?sort=flower&direction=asc" class="dropdown-item">Flowers By Type</a>
-                <a href="{% url 'products' %}?sort=color&direction=asc" class="dropdown-item">Flowers By color</a>
-                <a href="{% url 'products' %}?category=flower" class="dropdown-item">All Flowers</a>
-            </div>
         </li>
 
         <li class="nav-item dropdown">
@@ -64,7 +58,6 @@
                     Congratulations</a>
                 <a href="" class="dropdown-item">Love &amp; Romance</a>
                 <a href="{% url 'products' %}?occasion=wedding" class="dropdown-item">Wedding</a>
-                <a href="{% url 'products' %}?occasion=birthday,anniversary,congratulations,love-romance,wedding" class="dropdown-item">All Occasions</a>
             </div>
         </li>
     </ul>
