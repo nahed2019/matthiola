@@ -1,1 +1,1 @@
-web: gunicorn matthiola.wsgi:application
+web: gunicorn matthiolashop.wsgi:application
