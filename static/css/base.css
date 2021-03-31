@@ -31,6 +31,12 @@ body {
     width: fit-content;
 }
 
+.shop-now-button {
+    background: #01013d;
+    color: white;
+    min-width: 260px;
+}
+
 .btn-navy {
     background: #010135;
     color: white;
@@ -55,17 +61,27 @@ body {
     color: white;
 }
 
-.btn-outline-black {
+.btn-outline-navy {
     background: white;
     color: #010135 !important; /* use important to override link colors for <a> elements */
     border: 1px solid #010135;
 }
 
-.btn-outline-black:hover,
-.btn-outline-black:active,
-.btn-outline-black:focus {
+.btn-outline-navy:hover,
+.btn-outline-navy:active,
+.btn-outline-navy:focus {
     background: #010135;
     color: white !important;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-navy:hover,
+.btn-navy:active,
+.btn-navy:focus {
+    background: #222;
+    color: white;
 }
 
 .btt-button {
@@ -92,6 +108,84 @@ body {
    height: 260px;
 }
 
+.contact-container {
+  height: 80vh;
+  text-align: center;
+  background-color: rgba(207, 205, 205, 0.9);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.about-container {
+  height: 80vh;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: #d67985 !important;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.text-custum {
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.1em;
+    font-size: medium;
+}
+
+/** -----------------------------------Footer **/
+
+.footer-all {
+    background-color: #d67985;
+    color: white;
+}
+
+.footer-title {
+    margin-bottom: 1rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer-corporate-list > li > a {
+    color: white;
+}
+
+.footer-corporate-list > li > a:hover {
+    color: #010135;
+}
+
+
+.second-footer-panel {
+    background: #010135;
+}
+
+ul#social-icon li {
+    display: inline;
+}
+
+ul#social-icon {
+    padding-left: 0px !important;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+ul#social-icon a {
+    color: white;
+}
+
+ul#social-icon a:hover {
+    color: #d67985;
+}
+
+
+
+
 /* ------------------------------------------------The Banner Msg */
 
 
@@ -111,10 +205,20 @@ body {
 .products-hero-img {
   background:  url('/static/images/hero-imgs/flowers2.jpg') no-repeat center center;
   background-size: cover;
-  height: calc(60vh - 164px);;
+  height: calc(60vh - 164px);
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
+}
+
+.home-hero-img {
+  background:  url('/static/images/hero-imgs/flowers1.jpg') no-repeat center center;
+  background-size: cover;
+  height: calc(60vh - 164px);
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  height:100vh ;
 }
 
 /* credit: code for floating buttons taken from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp 

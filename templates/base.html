@@ -87,8 +87,8 @@
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="help-options">
-                            <a href="" class="dropdown-item">About us</a>
-                            <a href="" class="dropdown-item">Contact Us</a>
+                            <a href="#about" class="dropdown-item">About us</a>
+                            <a href="#contact" class="dropdown-item">Contact Us</a>
                         </div>
                     </li>
                     <li class="list-inline-item dropdown">
@@ -166,7 +166,82 @@
 
     {% block content %}
     {% endblock %}
-
+    <!-- Footer -->
+    <footer class="footer-all">
+        <div class="pt-2 pt-md-4">
+            <div class="container">
+                <div class="row">
+                    <h5 class="footer-title text-center">Quick links</h5>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 ">
+                        <ul class="footer-corporate-list">
+                            <li><a href="{% url 'products' %}"> Products</a>
+                            </li>
+                            <li><a href="{% url 'products' %}?category=special-gift,basket-gift,baby-gift">
+                                    Gifts</a></li>
+                            <li><a href="{% url 'products' %}?category=flower">
+                                    Flowers
+                                </a></li>
+                            <li><a href="{% url 'products' %}?category=green-plant,flowering-plant">Plants</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <ul class="footer-corporate-list">
+                            <li><a href="{% url 'products' %}?occasion=birthday" >Birthday</a></li>
+                            <li><a href="{% url 'products' %}?occasion=anniversary" >
+                                    Anniversary</a></li>
+                            <li><a href="{% url 'products' %}?occasion=congratulations" >
+                                    Congratulations</a></li>
+                            <li><a href="{% url 'products' %}?occasion=wedding" >Wedding</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="footer-corporate-list">
+                            <li><a href="#about" >About</a></li>
+                            <li><a href="#contact" >
+                                    contact us</a></li>
+                            <li><a href="{% url 'products' %}?occasion=love-romance" >
+                                    Love &amp; Romance</a></li>
+                            <li><a href="{% url 'home' %}" >home</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second-footer-panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <ul id="social-icon" class="text-center">
+                            <li class="mr-2">
+                                <a href="https://www.linkedin.com/in/asuna-fitzpatrick-masuda/" rel="noopener"
+                                    target="_blank">
+                                    <i class="fab fa-linkedin fa-2x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/" rel="noopener" target="_blank"><i
+                                        class="fab fa-twitter fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/" rel="noopener" target="_blank"><i
+                                        class="fab fa-facebook  fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" rel="noopener" target="_blank"><i
+                                        class="fab fa-instagram  fa-2x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 text-center">
+                        <p><span class="mr-3">© 2021 Nahed Alsayed Ahmad</span><span>Educational Purpose Only.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     {% block postloadjs %}
     <script type="text/javascript">
